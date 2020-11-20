@@ -24,7 +24,7 @@ The functions available at the moment are:
 ## SpeedTest:
 For the __SpeedTest__, I will we using 75-digit numbers (999999999999999999999999999999999999999999999999999999999999999999999999999, to be exact) as `a` and `b`, and show the time required in milliseconds.
 
-Processor: Intel Core i3
+[Processor](https://ark.intel.com/content/www/us/en/ark/products/series/84981/5th-generation-intel-core-i3-processors.html): `Intel Core i3 5th Gen`
 
 `preAdd(a, b)`: `0ms-1ms`
 
