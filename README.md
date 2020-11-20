@@ -22,10 +22,12 @@ The functions available at the moment are:
 - [ ] `NaN` and `infinity` support
 
 ## SpeedTest:
-For the __SpeedTest__, I will we using 75-digit numbers (all 9s) as `a` and `b`, and show the time required in milliseconds.
+For the __SpeedTest__, I will we using 75-digit numbers (999999999999999999999999999999999999999999999999999999999999999999999999999, to be exact) as `a` and `b`, and show the time required in milliseconds.
 
-`preAdd(a, b)`: `1ms`
+Processor: Intel Core i3
 
-`preMult(a, b)`: `ms`
+`preAdd(a, b)`: `0ms-1ms`
+
+`preMult(a, b)`: `19ms-59ms`
 
 > WARNING: USING TOO BIG NUMBERS MAY CAUSE THE PROGRAM TO CRASH.
