@@ -20,3 +20,12 @@ The functions available at the moment are:
 - [ ] Data Type error
 - [ ] Not a Number error
 - [ ] `NaN` and `infinity` support
+
+## SpeedTest:
+For the __SpeedTest__, I will we using 75-digit numbers (all 9s) as `a` and `b`, and show the time required in milliseconds.
+
+`preAdd(a, b)`: `1ms`
+
+`preMult(a, b)`: `ms`
+
+> WARNING: USING TOO BIG NUMBERS MAY CAUSE THE PROGRAM TO CRASH.
