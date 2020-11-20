@@ -9,6 +9,7 @@ The _precise_ functions take the arguments as `string`. Strings are handy becaus
 ## Available Functions:
 The functions available at the moment are:
 `preAdd(a, b)`: Adds the variable `a` with `b`
+
 `preMult(a, b)`: Multiplies the variable `a` with `b`
 
 ## Roadmap:
