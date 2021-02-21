@@ -1,7 +1,37 @@
 export class Precise {
+  /**
+   * @constant
+   * 
+   * @type {string}
+  */
+  static PI  = "3.1415926535897932384626433832795028841971"
+  /**
+   * @constant
+   * 
+   * @type {string}
+  */
+  static TAU = "6.2831853071795864769252867665590057683943"
+  /**
+   * @constant
+   * 
+   * @type {string}
+  */
+  static E   = "2.7182818284590452353602874713526624977572"
+  /**
+   * @function
+   * 
+   * @param {string} a - First Argument
+   * @param {string} b - Second Argument
+   * @returns {string} The Sum
+   * 
+   * @throws {TypeError}
+   * 
+   * @example
+   *   Precise.add('12345', '848389')
+  */
   static add (a, b) {
-    if (!(typeof a === 'string')) throw new Error(`Expected string, received ${typeof a}`)
-    else if (!(typeof b === 'string')) throw new Error(`Expected string, received ${typeof b}`)
+    if (!(typeof a === 'string')) throw new TypeError(`Expected string, received ${typeof a}`)
+    else if (!(typeof b === 'string')) throw new TypeError(`Expected string, received ${typeof b}`)
     if (a.length > b.length) {
       while (a.length > b.length) {
         b = '0' + b
@@ -21,10 +51,21 @@ export class Precise {
     if (ex !== 0) ans = ex + ans
     return ans
   }
-
+  /**
+   * @function
+   * 
+   * @param {string} a - First Argument
+   * @param {string} b - Second Argument
+   * @returns {string} The Product
+   * 
+   * @throws {TypeError}
+   * 
+   * @example
+   *   Precise.mult('12345', '848389')
+  */
   static mult (a, b) {
-    if (!(typeof a === 'string')) throw new Error(`Expected string, received ${typeof a}`)
-    else if (!(typeof b === 'string')) throw new Error(`Expected string, received ${typeof b}`)
+    if (!(typeof a === 'string')) throw new TypeError(`Expected string, received ${typeof a}`)
+    else if (!(typeof b === 'string')) throw new TypeError(`Expected string, received ${typeof b}`)
     if (b.length > a.length) {
       const c = a
       a = b

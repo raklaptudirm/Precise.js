@@ -2,10 +2,10 @@
   "name": "precise",
   "version": "1.0.0",
   "description": "A JavaScript Library to do precise mathametical calculations.",
-  "main": "src/PreciseLib.js",
+  "main": "",
   "type": "module",
   "scripts": {
-    "test": "node test.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/raklaptudirm/Precise.js/issues"
   },
-  "homepage": "https://github.com/raklaptudirm/Precise.js#readme"
+  "homepage": "https://github.com/raklaptudirm/Precise.js#readme",
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "jest": "^26.4.2",
+    "standard": "^14.3.4"
+  }
 }
