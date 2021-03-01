@@ -1,4 +1,6 @@
 # Precise.js
+> Documentation [Here](https://github.com/raklaptudirm/Precise.js/wiki/Documentation)
+
 `Precise.js` is a JavaScript library for doing _precise mathematical calculations_. When operating with big numbers, JavaScript changes them to the _scientific __e__ notation_. Like: `10000000000` to `1e+10`, which is undesireable when doing precise calculations which require maximum precision, like encryption.
 
 `Precise.js` does just that. No more precision loss when using large numbers. Just join the `PreciseLib.js` file to your main file, and you would be good to go.
